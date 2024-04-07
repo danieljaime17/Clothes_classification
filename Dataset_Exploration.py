@@ -1,6 +1,9 @@
 import tensorflow as tf
 from tensorflow.keras.datasets import fashion_mnist
 
+# this code explores the dataset 
+
+
 # Load the data
 (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
 
