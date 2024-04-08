@@ -64,3 +64,4 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
 print(f'Predicted class: {predicted_class[0]}')
 print(type(predicted_class[0].item()))
 print(class_names[predicted_class[0].item()])
+
